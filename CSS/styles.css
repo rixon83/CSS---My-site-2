@@ -1,0 +1,207 @@
+/* Chrome- Browserfenster groß/klein ziehen entfernt etwaige weiße Ränder... wieso??????*/
+
+body{margin: 0px;
+    text-align: center;
+font-family: 'Comfortaa', cursive;}
+
+.text {
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    width: 700px;
+}
+
+#tabelle {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    margin: 0 20% 0 auto;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #78D7D8;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 10px 0; 
+    color: white; 
+    font-size: 30px; 
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(255, 251, 0);
+  }
+  
+  .active {
+    background-color: #ff44ff; 
+  }
+
+#korrektur {
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 100% ;
+}
+
+h1 {font-family: 'Comfortaa', cursive;
+font-size: 5rem;
+padding: 80px;
+margin: 0 0 0 0 ;
+color: rgb(0, 0, 0);}
+
+h2 {font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    line-height: 4;}
+
+h3 {font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    line-height: 4;}
+
+p {font-family: 'Comfortaa', cursive;
+    font-size: 2rem;}
+
+.blocksatz{
+    position: absolute;
+    margin: auto ;
+       }
+
+
+
+.div0 {background-color: aquamarine;
+    top: 0;
+    height: 200px;
+    position: relative;
+}
+
+
+    .div1 {background-color: aquamarine;
+    height: 1000px;
+    position: relative;
+}
+
+    .div2 {background-color: #FFE246;
+        height: 900px;
+        position: relative;}
+
+
+    .div3 {background-color: rgb(255, 127, 249);
+        height: 900px;
+        position: relative;}
+
+
+    #a1_3 {
+            position: absolute;
+            width: 30%;
+            transform: rotate(0);
+            margin-left: -80%;
+            margin-bottom: 0%;
+        }
+    #a6_3 {
+            position: absolute;
+            width: 30%;
+            transform: rotate(180deg);
+            margin:0;
+            padding-right: -0% ;
+            margin-bottom: 0%;
+        }
+
+   
+
+    .div4 {background-color: rgb(127, 208, 255);
+        height: 900px;
+        position: relative;}
+
+
+        #a5_4{
+
+            position: relative;
+            width: 30%;
+            transform: rotate(190deg);
+            margin-right: 10%;
+            margin-bottom: 20%;
+        }
+
+    .div5 {background-color: rgb(127, 140, 255);
+            height: 900px;
+            position: relative;}
+
+        #a5_4_2{
+
+                position: absolute;
+                width: 30%;
+                transform: rotate(0deg);
+                margin: 7% 0% 0 -28%;
+            }
+     
+
+    .div6 {background-color: rgb(255, 189, 127);
+                height: 900px;
+                position: relative;}
+
+        #a2_6{
+                position: absolute;
+                width: 20%;
+                transform: rotate(180deg);
+                margin: 30% 0% 0% 25%;
+                }
+
+        #vieltext {
+                font-family: 'Comfortaa', cursive;
+                font-size: 1.5rem;}
+
+    .div7 {background-color: rgb(255, 127, 127);
+                height: 900px;
+                position: relative;}
+               
+        #a6_7{ 
+                    position: absolute;
+                    width: 30%;
+                    transform: rotate(0deg);
+                    margin: 14% 0% 0 -28%;
+                    }
+             
+    .bild1 {
+        width: 50%;
+        margin: 100px 100px 100px 100px;
+        text-align: left;
+    }
+
+    #bild1 {
+        position: relative;
+        left: 0px;
+        width: 30%;
+        text-align: left;
+    }
+
+
+
+    .bild2 {
+        position: relative;
+        right: 0px;
+        width: 30%;
+        text-align: center;
+    }
+
+
+    #parent2 {
+        position: relative;
+        border: 1px solid rgba(189, 189, 189, 0);
+        width: 1400px;
+        height: 900px;
+      }
+      
+      #child2 {
+        position: absolute;
+        border: 1px none red;
+        width: 22%;
+        height: 400px;
+        top: 400px;
+        right: 10px;
+        text-align: left;
+      }
+/* Chrome- Browserfenster groß/klein ziehen entfernt etwaige weiße Ränder... wieso??????*/
